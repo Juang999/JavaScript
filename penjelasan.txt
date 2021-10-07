@@ -1,0 +1,10 @@
+//variable
+
+-var = di dalam satu nama yang sama, var bisa digunakan dengan nama variable yang sama tapi isi var pertama akan ditimpa dengan var kedua 
+-let = let tidak bisa dinamakan sama dalam satu tempat kecuali dibedakan tempatnya
+-const = sama seperti let hanya saja conts tidak akan mengeluarkan input sama sekali
+
+//model input
+prompt = adalah sebuah input di javascript mirip seperti alert hanya saja dia memiliki form input
+confirm = adalah sebuah input dengan nilai boolean
+
