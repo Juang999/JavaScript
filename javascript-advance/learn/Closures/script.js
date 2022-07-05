@@ -1,10 +1,11 @@
 function init () {
-  let nama = "juang"
+  let nama = "Juang"
+  let umur = 23
   function tampilNama () {
     console.log(nama)
+    console.log(umur)
   }
-  return tampilNama
+  console.dir(tampilNama)
 }
 
-let panggilNama = init()
-panggilNama()
+init()
