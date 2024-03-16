@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    margin: 0 0 0 0;
+}
+
+nav .logo p {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+    margin: 0;
+    font-size: 25px;
+}
+
+nav .logo #first-name {
+    color: crimson;
+}
+
+nav .logo #second-name {
+    color: white;
+    margin: 0 5px;
+}
+
+nav .logo #third-name {
+    color: crimson;
+}
+
+nav #menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+nav #menu li {
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav #menu #first {
+    width: 60px;
+    height: 30px;
+    border-radius
+}
+
+nav #menu #second {
+    width: 60px;
+    height: 30px;
+    border-radius
+}
+
+nav #menu #third {
+    width: 100px;
+    height: 30px;
+    border-radius
+}
+
+nav #menu #first:hover {
+    background-color: crimson;
+    transition: background-color 0.15s ease-in-out;
+}
+
+nav #menu #second:hover {
+    background-color: crimson;
+    transition: background-color 0.15s ease-in-out;
+}
+
+nav #menu #third:hover {
+    background-color: crimson;
+    transition: background-color 0.15s ease-in-out;
+}
+
+nav #menu li a {
+    color: white;
+    text-decoration: none;
+}
